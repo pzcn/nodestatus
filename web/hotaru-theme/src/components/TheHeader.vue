@@ -26,7 +26,7 @@ export default defineComponent({
   height: 25rem;
   position: relative;
   /*Replace your header image at this place!*/
-  background: url("../assets/img/cover.png") no-repeat center center;
+  background: url("https://bingpic.vercel.app/api") no-repeat center center;
 }
 
 #header::before {
@@ -42,7 +42,6 @@ export default defineComponent({
 }
 
 #header::after {
-  content: 'Pixiv: 86597206';
   position: absolute;
   right: 15px;
   bottom: 0;

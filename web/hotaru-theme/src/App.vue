@@ -126,7 +126,7 @@ div.bar {
     height: 20rem;
 
     /* Replace your header image (for mobile use) at this place! */
-    background: url('assets/img/cover_mobile.png') no-repeat center center !important;
+    background: url('https://bingpic.vercel.app/api') no-repeat center center !important;
   }
 }
 
